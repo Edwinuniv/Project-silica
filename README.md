@@ -95,7 +95,7 @@ git clone https://github.com/Edwinuniv/project-silica.git
 2. Open:
 
 ```text
-homepage.html
+index.html
 ```
 
 in any modern web browser.
@@ -105,7 +105,7 @@ in any modern web browser.
 If GitHub Pages is enabled, simply visit:
 
 ```text
-https://Edwinuniv.github.io/project-silica/
+https://Edwinuniv/Project-silica/
 ```
 
 ---
