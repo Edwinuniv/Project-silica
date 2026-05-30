@@ -59,7 +59,7 @@ This website was created to present the concept in an engaging and accessible wa
 ```text
 Project-Silica/
 │
-├── homepage.html
+├── index.html
 ├── about.html
 ├── benefits.html
 ├── technology.html
