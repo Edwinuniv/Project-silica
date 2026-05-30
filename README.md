@@ -84,8 +84,6 @@ Project-Silica/
 
 ### Live Demo
 
-[View the live website](https://edwinuniv.github.io/project-silica/)
-
 ### Option 1: Open Locally
 
 1. Clone the repository:
