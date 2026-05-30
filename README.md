@@ -105,7 +105,7 @@ in any modern web browser.
 If GitHub Pages is enabled, simply visit:
 
 ```text
-https://Edwinuniv/Project-silica/
+https://edwinuniv.github.io/Project-silica/
 ```
 
 ---
