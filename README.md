@@ -145,6 +145,7 @@ Software Engineering • AI • Cybersecurity • Full-Stack Development
 
 GitHub: https://github.com/Edwinuniv
 LinkedIn: https://www.linkedin.com/in/edwin-mouawad-525616362/
+[![Website](https://img.shields.io/badge/Website-Live_Demo-2ea44f?style=for-the-badge)](https://edwinuniv.github.io/Project-silica/)
 
 ---
 
