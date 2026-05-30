@@ -161,5 +161,3 @@ https://www.linkedin.com/in/edwin-mouawad-525616362/
 ---
 
 ⭐ If you found this project interesting, consider giving it a star!
-
-```
