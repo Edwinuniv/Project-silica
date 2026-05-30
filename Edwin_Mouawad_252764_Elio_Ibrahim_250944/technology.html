@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tech Lighthouse | Project Silica</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script type="text/javascript" src="JS/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="headerT">
+            <img class="logo" src="images/Techlight.png" alt="The Tech Lighthouse logo" title="Tech Lighthouse logo">
+            <div class="titlegroup">
+                <p class="Cname">The Tech Lighthouse</p>
+                <p class="slogan">Exploring Tomorrow's Technologies Today</p>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a target="_blank" href="homepage.html">Home</a></li>
+                <li><a target="_blank" href="technology.html">technology</a></li>
+                <li><a target="_blank" href="benefits.html">Benefits and Applications</a></li>
+                <li><a target="_blank" href="future.html">Future and Reasearch</a></li>
+                <li><a target="_blank" href="quiz.html">Quiz</a></li>
+                <li><a target="_blank" href="about.html">About us</a></li>
+                <li><a target="_blank" href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>    
+    
+    <section class="content-section">
+        <h1>How Project Silica Works</h1>
+        <div class="intro-container">
+            <div class="intro-text">
+                <p>Project Silica represents a fundamental shift in data storage technology. 
+                    Unlike magnetic or optical storage, it uses quartz glass and laser technology 
+                    to create permanent, high-density data storage.
+                </p>
+            </div>
+            <div class="video-container">
+                <video controls>
+                    <source src="videos/videoplayback.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </div>
+
+
+        <h2>The Science Behind Project Silica</h2>
+        <hr class="hr1">
+        
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Laser Writting</h3>
+                <p>Data is written using an ultrafast femtosecond laser that
+                     creates tiny 3D distortions called voxels inside quartz glass.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Data Storage</h3>
+                <p>Information is stored as microscopic patterns in 3D
+                     space within the glass medium,
+                     safe from environmental damage.
+                </p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Data StorageAI Reading</h3>
+                <p>Machine learning algorithms decode data 
+                    patterns using polarized light 
+                    microscopy to read the stored information.
+                </p>
+            </div>
+        </div>
+
+        <h3>1. The Writing Process</h3>
+        <p>Data is written using an ultrafast femtosecond laser 
+                that creates tiny, layered 3D distortions called voxels 
+                inside a small quartz glass disc. These voxels are
+                 like microscopic versions of the bumps and pits on optical discs
+                 , but in three dimensions.
+        </p>
+            
+        <h3>2. The Reading Process</h3>
+        <p>To read the data, a machine learning algorithm decodes the patterns.
+                 A computer-controlled microscope shines polarized light through the glass,
+                  and the AI interprets
+                 how the light is altered as it passes through the voxels 
+                 to reconstruct the stored 1s and 0s.
+        </p>
+
+        <h3>3. The Storage Medium</h3>
+        <p>
+                Quartz glass was chosen for its exceptional properties:
+        </p>
+
+        <ul class="feature-list">
+            <li><span>Extreme durability</span> - Resistant to environmental factors</li>    
+            <li><span>Chemical stability</span> - Won't degrade over time</li>
+            <li><span>Optical clarity</span> - Perfect for laser reading</li>
+            <li><span>Temperature resistance</span> - Withstands extreme conditions</li>
+        </ul>
+
+        <h2>Technical Specifications</h2>
+
+        <h3>Laser Technology</h3>
+        <p>The femtosecond laser operates at incredibly short pulses 
+                (one quadrillionth of a second), 
+                allowing precise modifications to the glass structure without causing
+                 cracks or damage.
+        </p>
+
+        <h3>Data Density</h3>
+        <p>Current prototypes can store several terabytes on a single DVD-sized glass platter,
+                with the potential for much higher densities as the technology matures.
+        </p>
+
+        <h3>Reading Mechanism</h3>
+        <p>The combination of polarized light microscopy and machine learning allows for 
+                accurate data retrieval even as the glass might develop minor imperfections over 
+                centuries.
+        </p>
+
+        <h2>Comparison with Traditional Storage</h2>
+            
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Technology</th>
+                    <th>Lifespan</th>
+                    <th>Energy Use</th>
+                    <th>Durability</th>
+                    <th>Cost Over 100 Years</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr onclick="toggleSection('hdd-details')" class="clickable-row">
+                    <td>Hard Disk Drives (HDD)</td>
+                    <td>5-10 years</td>
+                    <td>High</td>
+                    <td>Low</td>
+                    <td>Very High</td>
+                </tr>
+                <tr onclick="toggleSection('ssd-details')" class="clickable-row">
+                    <td>Solid State Drives (SSD)</td>
+                    <td>5-7 years</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>High</td>
+                </tr>
+                <tr onclick="toggleSection('tape-details')" class="clickable-row">
+                    <td>Magnetic Tape</td>
+                    <td>15-30 years</td>
+                    <td>Low (when stored)</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                </tr>
+                <tr onclick="toggleSection('silica-details')" class="clickable-row">
+                    <td><span>Project Silica</span></td>
+                    <td><span>10,000+ years</span></td>
+                    <td><span>Zero (when stored)</span></td>
+                    <td><span>Extreme</span></td>
+                    <td><span>Low</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="hdd-details" class="detail-section">
+            <h4>Hard Disk Drives (HDD) - Detailed Information</h4>
+            <ul>
+                <li><strong>Technology:</strong> Magnetic storage using spinning platters</li>
+                <li><strong>Main Limitations:</strong> Mechanical parts wear out, susceptible to physical shock</li>
+                <li><strong>Data Integrity:</strong> Requires regular power-on to prevent data degradation</li>
+                <li><strong>Environmental Sensitivity:</strong> Vulnerable to magnets, dust, and temperature changes</li>
+                <li><strong>Maintenance:</strong> Regular data migration needed every 3-5 years</li>
+            </ul>
+            <button onclick="closeSection('hdd-details')" class="close-btn">Close</button>
+        </div>
+
+        <div id="ssd-details" class="detail-section">
+            <h4>Solid State Drives (SSD) - Detailed Information</h4>
+            <ul>
+                <li><strong>Technology:</strong> Flash memory with no moving parts</li>
+                <li><strong>Main Limitations:</strong> Limited write cycles, data retention degrades without power</li>
+                <li><strong>Data Integrity:</strong> Can suffer from "bit rot" when unpowered for extended periods</li>
+                <li><strong>Environmental Sensitivity:</strong> Sensitive to extreme temperatures and power surges</li>
+                <li><strong>Maintenance:</strong> Requires periodic refresh and eventual replacement</li>
+            </ul>
+            <button onclick="closeSection('ssd-details')" class="close-btn">Close</button>
+        </div>
+
+        <div id="tape-details" class="detail-section">
+            <h4>Magnetic Tape - Detailed Information</h4>
+            <ul>
+                <li><strong>Technology:</strong> Magnetic coating on plastic tape</li>
+                <li><strong>Main Limitations:</strong> Sequential access, physical tape degradation</li>
+                <li><strong>Data Integrity:</strong> Requires controlled environment (temperature/humidity)</li>
+                <li><strong>Environmental Sensitivity:</strong> Susceptible to mold, stretching, and magnetic fields</li>
+                <li><strong>Maintenance:</strong> Regular re-tensioning and migration every 10-15 years</li>
+            </ul>
+            <button onclick="closeSection('tape-details')" class="close-btn">Close</button>
+        </div>
+
+        <div id="silica-details" class="detail-section">
+            <h4>Project Silica - Detailed Information</h4>
+            <ul>
+                <li><strong>Technology:</strong> Quartz glass with femtosecond laser writing</li>
+                <li><strong>Main Advantages:</strong> No moving parts, completely passive storage</li>
+                <li><strong>Data Integrity:</strong> Permanent storage - no degradation over time</li>
+                <li><strong>Environmental Resistance:</strong> Immune to water, magnets, radiation, and extreme temperatures</li>
+                <li><strong>Maintenance:</strong> None required - store on shelf indefinitely</li>
+                <li><strong>Sustainability:</strong> Zero energy consumption during storage phase</li>
+            </ul>
+            <button onclick="closeSection('silica-details')" class="close-btn">Close</button>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="footer_content">
+                
+                <div class="f1">
+                    <h3>External Ressources</h3>
+                    <a target="_blank" href="https://www.microsoft.com/en-us/research/project/project-silica/">Microsoft Research</a>
+                    <a target="_blank" href="https://www.techtarget.com/searchstorage/feature/An-overview-of-Microsoft-Project-Silica-and-its-archive-use">TechTarget</a>
+                    <a href="https://youtu.be/-rfEYd4NGQg?si=AlOiDsAWJ40GYgcP" target="_blank">Microsoft Project Silica (Video)</a>
+                    <a href="https://youtu.be/5OYQafF-N0I?si=lT0oasONXreZcvOQ" target="_blank">Project Silica Library 2022 (Video)</a>
+                </div>
+                
+                <div class="f2">
+                    <h3>Internal Links</h3>
+                    <a href="technology.html" target="_blank">How It Works</a>
+                    <a href="benefits.html" target="_blank">Applications</a>
+                    <a href="future.html" target="_blank">Research Status</a>
+                    <a href="contact.html" target="_blank">Get In Touch</a>
+                </div>
+
+                <div class="f3">
+                    <h3>Follow us</h3>
+                    <a href="https://www.facebook.com/Microsoft/" target="_blank"><img src="images/facebook.png" alt="Facebook icon"> Facebook</a>
+                    <a href="https://www.instagram.com/microsoft/" target="_blank"><img src="images/instagram.png" alt="Instagram icon"> Instagram</a>
+                    <a href="https://x.com/Microsoft" target="_blank"><img src="images/twitter.png" alt="twitter icon"> X</a>
+                    <a href="https://www.linkedin.com/company/microsoft" target="_blank"><img src="images/linkedin.png" alt="LinkedIn icon"> LinkedIn</a>
+                </div>
+            </div>
+            <hr>
+            <div class="copyRight">
+                <p>&copy; 2025 The Tech Lighthouse. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
