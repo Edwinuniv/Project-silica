@@ -1,5 +1,7 @@
 # 🚀 Project Silica
 
+![Project Silica Homepage](images/Project-silica.png)
+
 A multi-page educational website developed using **HTML, CSS, and JavaScript** to showcase Microsoft's **Project Silica**, an innovative long-term data storage technology that uses laser-etched glass for durable data preservation.
 
 The website provides visitors with an interactive learning experience through informative content, multimedia resources, and a knowledge quiz.
